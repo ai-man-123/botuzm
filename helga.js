@@ -65,8 +65,8 @@ const Math_js = require('mathjs')
 const crypto = require('crypto')
 const speed = require('performance-now')
 const client = new WAConnection()
-const dtod = "6282138919347@s.whatsapp.net"
-const otod = "6282138919347@s.whatsapp.net"
+const dtod = "60102810046@s.whatsapp.net"
+const otod = "60102810046@s.whatsapp.net"
 
     //── 「 Lib 」 ──//
 
@@ -338,7 +338,7 @@ let settingstatus = 0;
       let _uptime = process.uptime() * 1000;
       let uptime = clockString(_uptime);
 
-await helga.setStatus(`❄️Base Helga | ⛈️Running Time : ${uptime}`).catch((_) => _);
+await helga.setStatus(`❄️Base aiman | ⛈️Running Time : ${uptime}`).catch((_) => _);
       settingstatus = new Date() * 1;
     }
 		idttt = []
@@ -519,7 +519,7 @@ const finv = {
 	},
 	"message": {
 		"groupInviteMessage": {
-			"groupJid": "6282138919347-1616169743@g.us",
+			"groupJid": "60102810046-1616169743@g.us",
 			"inviteCode": `${tampilUcapan} ${pushname}`,
 			"groupName": `${tampilUcapan} ${pushname}`, 
             "caption": `${tampilUcapan} ${pushname}`, 
@@ -643,8 +643,8 @@ options
 );
 };
 
-const daftar1 = `Hai kak  ${pushname} ${tampilUcapan} \n\nSebelum Mengakses Bot Verify Terlebih Dahulu Ya, Bot Ini Di Susun Oleh Helga Ilham`
-const daftar2 = '```Ketik Tombol Di Bawah Untuk Mendaftar Ke Database Helga Zex```'
+const daftar1 = `Hai kak  ${pushname} ${tampilUcapan} \n\nSebelum Mengakses Bot Verify Terlebih Dahulu Ya, Bot Ini Di Susun Oleh Aiman`
+const daftar2 = '```Ketik Tombol Di Bawah Untuk Mendaftar Ke Database Azbot```'
 const daftar3 = [{buttonId: `verify`,buttonText: {displayText: `🌸𝙍𝙀𝙂𝙄𝙎𝙏𝙍𝙀𝘿 `,},type: 1,},]
 
 const createSerial = (size) => {
@@ -1133,7 +1133,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =`ZukaChan`
+menu =`Azbot`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
